@@ -1,0 +1,20 @@
+# Private local configuration
+configs/config_paths_local.m
+
+# Private data
+data/
+data_private/
+raw_data/
+
+# Generated analysis outputs
+outputs/
+
+# MATLAB / OS / editor
+*.asv
+*.m~
+.DS_Store
+Thumbs.db
+
+# Temporary Office files
+~$*.xlsx
+~$*.docx
