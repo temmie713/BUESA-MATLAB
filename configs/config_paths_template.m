@@ -16,11 +16,11 @@ projectRoot = fileparts(fileparts(mfilename("fullpath")));
 paths = struct();
 
 % Source tables used for longitudinal label construction
-paths.eegListFile    = fullfile("D:\PRIVATE_GARD", "brainwave_7175_oid_list.xlsx");
-paths.diagnosisFile  = fullfile("D:\PRIVATE_GARD", "brainwave_dia_list.xlsx");
+paths.eegListFile    = fullfile("D:\PRIVATE_GARD", "eeg_list.xlsx");
+paths.diagnosisFile  = fullfile("D:\PRIVATE_GARD", "eeg_dia_list.xlsx");
 
 % Optional auxiliary cognitive-score export
-paths.snsbFile       = fullfile("D:\PRIVATE_GARD", "snsb_total_fu.xlsx");
+paths.snsbFile       = fullfile("D:\PRIVATE_GARD", "snsb.xlsx");
 
 % Root directory containing authorized two-channel BEAM txt files
 paths.beamRoot       = fullfile("D:\PRIVATE_GARD", "BEAM");
