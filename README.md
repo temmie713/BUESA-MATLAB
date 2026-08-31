@@ -8,12 +8,12 @@ The repository is organized into four conceptual stages and six executable scrip
 
 | Order | Script | Purpose |
 |---|---|---|
-| 1 | `01_construct_longitudinal_labels.m` | Match EEG examinations to longitudinal diagnoses and construct strict progression labels. |
-| 2 | `02_extract_two_channel_eeg_features.m` | Preprocess two-channel EEG, reject invalid segments, extract segment descriptors, and aggregate them into 64 file-level EEG features. |
-| 3 | `03_compare_ml_and_bayesian_models.m` | Exploratory comparison of preprocessing, Top-K feature sets, conventional ML classifiers, and Bayesian logistic regression. |
-| 4 | `04_run_cabess_signature_discovery.m` | Run Class-aware Bayesian Evolutionary Signature Selection (CaBESS) and export candidate signatures from the current search run. |
-| 5 | `05_validate_fixed_cabess_signature.m` | Evaluate the fixed seven-feature manuscript signature using repeated subject-level five-fold cross-validation. |
-| 6 | `06_run_bopa_analysis.m` | Run Bayesian Output-Preserving Attribution (BOPA) for posterior contribution and local output-stability analysis. |
+| 1 | `construct_longitudinal_labels_01.m` | Match EEG examinations to longitudinal diagnoses and construct strict progression labels. |
+| 2 | `extract_two_channel_eeg_features_02.m` | Preprocess two-channel EEG, reject invalid segments, extract segment descriptors, and aggregate them into 64 file-level EEG features. |
+| 3 | `compare_ml_and_bayesian_models_03.m` | Exploratory comparison of preprocessing, Top-K feature sets, conventional ML classifiers, and Bayesian logistic regression. |
+| 4 | `run_cabess_signature_discovery_04.m` | Run Class-aware Bayesian Evolutionary Signature Selection (CaBESS) and export candidate signatures from the current search run. |
+| 5 | `validate_fixed_cabess_signature_05.m` | Evaluate the fixed seven-feature manuscript signature using repeated subject-level five-fold cross-validation. |
+| 6 | `run_bopa_analysis_06.m` | Run Bayesian Output-Preserving Attribution (BOPA) for posterior contribution and local output-stability analysis. |
 
 The four high-level blocks are therefore:
 
